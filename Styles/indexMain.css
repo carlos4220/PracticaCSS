@@ -1,0 +1,56 @@
+
+#informacion{
+    display: inline-block;
+    margin-left: 5%;
+    width: 60%;
+}
+
+#lateral{
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    height: 1000px;
+    float: right;
+}
+
+#tituloanexos{
+    font-family: "Freestyle Script";
+    font-size: 35px;
+    text-align: center;
+}
+
+.anexos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulos_main{
+    font-family: "Freestyle Script";
+    font-size: 48px;
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: justify;
+}
+
+.links_anexos{
+    color: rgb(10, 25, 228);
+    display: block;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+th p{
+    text-align: center;
+}

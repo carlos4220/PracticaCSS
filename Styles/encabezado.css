@@ -1,0 +1,73 @@
+/*Estilos para el encabezado*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#head{
+    background-color:   #80deea;
+    height: 150px;
+}
+#imghead{
+    width: 10%;
+    height: 100px;
+    display: inline-block;
+}
+.tituloshead{
+    float: right;
+    width: 85%;
+}
+.titulosh1{
+    font-family: "Freestyle Script";
+    font-size: 48px;
+}
+.titulosh2{
+    font-family: "Freestyle Script";
+    font-size: 40px;
+}
+
+.tituloshead h1,.tituloshead h2{
+    margin: 5px;
+    text-align: center;
+}
+
+#navegacion{
+    background-color:   #42a5f5  ;
+    height: 40px;
+    margin: 0px;
+}
+
+.elementos_navegacion{
+    display: inline-block;
+    margin-left: 5.5%;
+    margin-right: 5.5%; 
+    height: 40px;
+    width: 12%;
+    align-items: center;
+}
+.elementos_navegacion:hover{
+    background-color: #1565c0;
+    margin-top: 0px;
+}
+
+.linksbotones{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    height: 38px;
+}
+
+.linksbotonesnav{
+    color: black;
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    height: 38px;
+    text-decoration: none;
+}
+
