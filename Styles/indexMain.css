@@ -50,6 +50,13 @@ p{
     text-align: center;
     text-decoration: none;
 }
+.links_anexos:visited{
+    color: rgb(8, 1, 114);
+}
+
+.links_anexos:hover{
+    color: rgba(157, 10, 170, 0.781);
+}
 
 th p{
     text-align: center;
