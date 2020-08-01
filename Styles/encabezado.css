@@ -1,79 +1,150 @@
-/*Estilos para el encabezado*/
 *{
     padding: 0px;
     margin: 0px;
 }
+
 #head{
     background-color:   #80deea;
-    height: 150px;
-}
-#imghead{
-    width: 10%;
-    height: 100px;
-    display: inline-block;
-}
-.tituloshead{
-    float: right;
-    width: 85%;
-}
-.titulosh1{
-    text-shadow: rgb(0, 0, 0) 4px 4px 20px;
-    font-family: "Freestyle Script";
-    font-size: 48px;
-}
-.titulosh2{
-    text-shadow: rgb(0, 0, 0) 4px 4px 20px;
-    font-family: "Freestyle Script";
-    font-size: 40px;
 }
 
-.tituloshead h1,.tituloshead h2{
-    margin: 5px;
-    text-align: center;
+@media (min-width: 500px){
+        /*Estilos para el encabezado*/
+    #head{
+        height: 150px;
+    }
+    #imghead{
+        width: 10%;
+        height: 100px;
+        display: inline-block;
+    }
+    .tituloshead{
+        float: right;
+        width: 85%;
+    }
+    .titulosh1{
+        text-shadow: rgb(0, 0, 0) 4px 4px 20px;
+        font-family: "Freestyle Script";
+        font-size: 48px;
+    }
+    .titulosh2{
+        text-shadow: rgb(0, 0, 0) 4px 4px 20px;
+        font-family: "Freestyle Script";
+        font-size: 40px;
+    }
+
+    .tituloshead h1,.tituloshead h2{
+        margin: 5px;
+        text-align: center;
+    }
+
+    #navegacion{
+        background-color:   #42a5f5  ;
+        height: 40px;
+        margin: 0px;
+    }
+
+    .elementos_navegacion{
+        align-items: center;
+        border-radius: 10px;
+        display: inline-block;
+        height: 40px;
+        margin-left: 5.5%;
+        margin-right: 5.5%; 
+        padding-top: 4px;
+        width: 12%;
+        /*se agregar una transicion en un tiempo 0.3s de afuera para adentro y tarda 0.0s en ejecutarse*/
+        transition: transform 0.3s ease-in-out 0.0s;
+    }
+    .elementos_navegacion:hover{
+        background-color: #1565c0;
+        margin-top: 0px;
+        /*en el firefoz se hara un aumento de 1.1 en el boton*/
+        transform: scale(1.1);
+    }
+
+    .linksbotones{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        height: 38px;
+    }
+
+    .linksbotonesnav{
+        color: black;
+        display: block;
+        font-family: "Times New Roman";
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        height: 38px;
+        text-decoration: none;
+    }
+
+    
 }
 
-#navegacion{
-    background-color:   #42a5f5  ;
-    height: 40px;
-    margin: 0px;
-}
+@media (max-width:499px){
+    
+    #head{
+        height: 80px;
+    }
 
-.elementos_navegacion{
-    display: inline-block;
-    margin-left: 5.5%;
-    margin-right: 5.5%; 
-    height: 40px;
-    width: 12%;
-    align-items: center;
-    border-radius: 10px;
-    padding-top: 4px;
-    transition: transform 0.3s ease-in-out 0.0s;
-}
-.elementos_navegacion:hover{
-    background-color: #1565c0;
-    margin-top: 0px;
-    transform: scale(1.1);
-}
+    #imghead{
+        width: 20%;
+        height: 35%;
+        display: inline-block;
+    }
+    
+    .tituloshead{
+        float: right;
+        text-align: center;
+        width: 75%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .titulosh1{
+        text-shadow: rgb(0, 0, 0) 4px 4px 20px;
+        font-family: "Freestyle Script";
+        font-size: 25px;
+    }
+    .titulosh2{
+        text-shadow: rgb(0, 0, 0) 4px 4px 20px;
+        font-family: "Freestyle Script";
+        font-size: 25px;
+        margin-top: 0px;
+    }
 
-.linksbotones{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    height: 38px;
-}
+    #navegacion{
+        background-color:   #42a5f5  ;
+        height: 150px;
+        padding-top: 1px;
+    }
 
-.linksbotonesnav{
-    color: black;
-    display: block;
-    font-family: "Times New Roman";
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    height: 38px;
-    text-decoration: none;
-}
+    .elementos_navegacion{
+        align-items: center;
+        height: 25px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+    }
 
+    .linksbotonesnav{
+        color: black;
+        display: block;
+        font-family: "Times New Roman";
+        font-size: 13px;
+        text-align: center;
+        height: 25px;
+        text-decoration: none;
+    }
+
+    .linksbotonesnav:active{
+        background-color: rgb(2, 25, 102);
+        color: cornsilk;
+    }
+}
