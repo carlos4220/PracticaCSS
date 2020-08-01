@@ -1,64 +1,143 @@
+@media (min-width: 500px){  
+    #informacion{
+        display: inline-block;
+        margin-left: 5%;
+        width: 60%;
+    }
 
-#informacion{
-    display: inline-block;
-    margin-left: 5%;
-    width: 60%;
+    #lateral{
+        display: inline-block;
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        height: 1000px;
+        float: right;
+    }
+
+    #tituloanexos{
+        font-family: "Freestyle Script";
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .anexos{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulos_main{
+        font-family: "Freestyle Script";
+        font-size: 48px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    p{
+        font-family: "Times New Roman";
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .links_anexos{
+        color: rgb(10, 25, 228);
+        display: block;
+        font-family: "Segoe UI Semibold";
+        font-size: 20px;
+        height: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .links_anexos:visited{
+        color: rgb(8, 1, 114);
+    }
+
+    .links_anexos:hover{
+        color: rgba(157, 10, 170, 0.781);
+        transform: scale(1.1);
+    }
+
+    th p{
+        text-align: center;
+    }
+
+    footer{
+        /*sirve para romper los float de elementos anteriores*/
+        clear: both;
+    }
+
+    td{
+        padding: 10px;
+    }
 }
 
-#lateral{
-    display: inline-block;
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
-    height: 1000px;
-    float: right;
-}
+@media (max-width: 499px){
+    #informacion{
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-#tituloanexos{
-    font-family: "Freestyle Script";
-    font-size: 35px;
-    text-align: center;
-}
+    .titulos_main{
+        font-family: "Freestyle Script";
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-.anexos{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+    p{
+        font-family: "Times New Roman";
+        font-size: 13px;
+        text-align: justify;
+    }
 
-.titulos_main{
-    font-family: "Freestyle Script";
-    font-size: 48px;
-    margin-top: 50px;
-    text-align: center;
-}
-p{
-    font-family: "Times New Roman";
-    font-size: 20px;
-    text-align: justify;
-}
+    table{
+        border-collapse: collapse;
+    } 
 
-.links_anexos{
-    color: rgb(10, 25, 228);
-    display: block;
-    font-family: "Segoe UI Semibold";
-    font-size: 20px;
-    height: 38px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    text-decoration: none;
-}
-.links_anexos:visited{
-    color: rgb(8, 1, 114);
-}
+    th{
+        background: rgba(197, 194, 194, 0.61);
+        padding: 2px;
+    }
 
-.links_anexos:hover{
-    color: rgba(157, 10, 170, 0.781);
-    transform: scale(1.1);
-}
+    th p{
+        text-align: center;
+    }
 
-th p{
-    text-align: center;
+    td{
+        padding: 10px;
+    }
+
+    #lateral{
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    #tituloanexos{
+        font-family: "Freestyle Script";
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .anexos{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .links_anexos{
+        color: rgb(10, 25, 228);
+        display: block;
+        font-family: "Segoe UI Semibold";
+        font-size: 15px;
+        height: 38px;
+        margin-top: 0px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+    }
 }
